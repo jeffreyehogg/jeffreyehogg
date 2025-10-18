@@ -17,5 +17,5 @@ Check out my portfolio website [hoggs.io](https://hoggs.io)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeffreyehogg&layout=compact&theme=dark)](https://github.com/jeffreyehogg/github-readme-stats)
 
-<img src="https://github-readme-stats.vercel.app/api?username=jeffreyehogg&show_icons=true&theme=dark" alt="jeffreyehogg" />
+<!-- <img src="https://github-readme-stats.vercel.app/api?username=jeffreyehogg&show_icons=true&theme=dark" alt="jeffreyehogg" /> -->
 </div>

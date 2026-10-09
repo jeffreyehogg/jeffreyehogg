@@ -60,7 +60,7 @@ I have a passion for **clean code**, **scalable system architecture**, and **dev
 
 ---
 
-### 📌 Featured Project
+### 📌 Featured Work
 
 #### 🚀 [Developer Portfolio & Engineering Monorepo](https://www.jeffhogg.com)
 
@@ -71,12 +71,38 @@ A high-performance Turborepo monorepo and personal engineering portfolio showcas
 
 👉 **[Live Portfolio](https://www.jeffhogg.com)** &nbsp;|&nbsp; 💻 **[GitHub Repository](https://github.com/jeffreyehogg/portfolio)**
 
-#### 🌟 Flagship Works & Projects
+---
+
+### 🌟 Open-Source Spotlight
+
+#### ⚡ [AutoDBA MCP](https://github.com/jeffreyehogg/autodba-mcp) — Zero-Connection SQL Optimization Server
+
+<p align="left">
+  <a href="https://github.com/jeffreyehogg/autodba-mcp">
+    <img src="https://img.shields.io/github/stars/jeffreyehogg/autodba-mcp?style=social" alt="GitHub Stars">
+  </a>
+  <img src="https://img.shields.io/badge/python-3.10+-blue.svg?logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/protocol-MCP%202025-green.svg" alt="Model Context Protocol">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+</p>
+
+An open-source **Model Context Protocol (MCP)** server that equips AI coding assistants (Claude Desktop, Cursor, Antigravity, Windsurf) with static SQL AST analysis, automated query rewriting, execution plan diagnostics, and zero-downtime index synthesis — **without requiring database credentials or exposing sensitive data.**
+
+* 🔒 **Zero DB Credentials Needed:** 100% offline static AST parsing via `sqlglot`.
+* ⚡ **Deterministic AST Rewriter:** Automatically refactors anti-patterns (e.g. non-SARGable column functions, Cartesian joins) into high-performance queries.
+* 🛡️ **Zero-Downtime Index Synthesis:** Generates non-blocking DDL (`WITH (ONLINE=ON)`, `CONCURRENTLY`) for SQL Server, PostgreSQL, and MySQL.
+* 📊 **Execution Plan Diagnostics:** Deep parsing of `.sqlplan` XML and `EXPLAIN JSON` to isolate bottleneck operators and sort spills.
+
+👉 **[Star & Clone on GitHub](https://github.com/jeffreyehogg/autodba-mcp)** &nbsp;|&nbsp; 🌐 **[Try Web Demo](https://autodba.jeffhogg.com)**
+
+---
+
+#### 🚀 More Projects & Applications
 
 | Project | Description | Tech Stack | Links |
 | :--- | :--- | :--- | :--- |
 | **AlgoQuest** | Interactive, gamified algorithm and programming quest with in-browser Python execution | Next.js 16, React 19, Python WASM (Pyodide), Web Workers, CodeMirror | [Live Demo](https://algoquest.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/algoquest) |
-| **AutoDBA** | AI-powered database assistant for SQL query profiling, index optimization, and SSMS modernization | Next.js, Python, FastAPI, AI / MCP | [Live Demo](https://autodba.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/autodba) |
+| **AutoDBA MCP** | Open-source MCP server for zero-connection SQL AST analysis and index synthesis | Python, MCP Protocol, sqlglot, T-SQL / Postgres / MySQL | [Repo](https://github.com/jeffreyehogg/autodba-mcp) • [Web Demo](https://autodba.jeffhogg.com) |
 | **Legacy Link** | Enterprise data migration and ETL tool for building security systems, badges, and access records | Next.js, TypeScript, PostgreSQL, Clerk | [Live Demo](https://legacy-link.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/legacy-link) |
 | **Texas Tint Plus** | Commercial and residential window film platform featuring an interactive quote estimator | Next.js, React, TypeScript, Tailwind CSS | [Live Demo](https://texastint.com) • [Code](https://github.com/jeffreyehogg/texas-tint) |
 

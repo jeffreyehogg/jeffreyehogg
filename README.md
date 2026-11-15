@@ -119,7 +119,7 @@ An open-source **SQL optimization & database incident triage platform** combinin
 
 #### 🚀 [Developer Portfolio & Engineering Monorepo](https://www.jeffhogg.com)
 
-A high-performance Turborepo monorepo and personal engineering portfolio orchestrating 6 independent production web applications, interactive developer tools, and client platforms with path-filtered CI/CD and zero-downtime deployments.
+A high-performance Turborepo monorepo and personal engineering portfolio orchestrating 3 independent production web applications, interactive developer tools, and client platforms with path-filtered CI/CD and zero-downtime deployments.
 
 * **Tech:** Turborepo, Next.js 15/16 (App Router), React 19, TypeScript, Rust (WASM), Tailwind CSS, Framer Motion, Vercel
 * **Architecture:** Monorepo architecture orchestrating multiple sub-applications with shared configuration, strict type safety, and optimized build caching.
@@ -134,9 +134,6 @@ A high-performance Turborepo monorepo and personal engineering portfolio orchest
 | **AlgoQuest** | Interactive 2D dungeon algorithm quest powered by a custom 138KB Rust WebAssembly engine across 6 languages | Rust (WASM), Next.js 16, React 19, Pyodide WASM, CodeMirror 6, Clerk | [Live Demo](https://algoquest.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/algoquest) |
 | **AutoDBA MCP** | Standalone PyPI MCP server (`uvx autodba-mcp`) for zero-connection SQL AST analysis and index synthesis | Python, MCP Protocol, sqlglot, T-SQL / Postgres / MySQL | [Repo](https://github.com/jeffreyehogg/autodba-mcp) • [Web Demo](https://autodba.jeffhogg.com) |
 | **Kingdom Connect** | Community engagement platform with volunteer board, mission funding, and encrypted prayer journal | Next.js 16, React 19, PostgreSQL, Drizzle ORM, Clerk, Tailwind CSS | [Live Demo](https://kingdom.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/kingdom-connect) |
-| **Legacy Link** | Enterprise PACS data migration and ETL utility preserving 37-bit security badge credentials | Next.js 16, TypeScript, PostgreSQL, Clerk, CSV/ETL | [Live Demo](https://legacy-link.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/legacy-link) |
-| **Hogg Homes** | Residential homebuilder platform featuring searchable communities, interactive elevations, and tour booking | Next.js 16, React 19, Tailwind CSS, Framer Motion, Zod | [Live Demo](https://homes.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/hogg-homes) |
-| **ForexFlow FX** | Real-time foreign exchange telemetry dashboard with multi-tier Nitro SWR edge caching | Nuxt 3, Vue 3, TypeScript, Chart.js, Nitro SWR | [Live Demo](https://forexflow-dashboard.vercel.app/) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/forexflow-dashboard) |
 | **Texas Tint Plus** | Commercial and residential window film platform featuring an interactive quote estimator | Next.js, React, TypeScript, Tailwind CSS | [Live Demo](https://texastint.com) • [Code](https://github.com/jeffreyehogg/texas-tint) |
 
 ---

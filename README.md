@@ -92,11 +92,11 @@ A high-craft, native iOS audio listening application for public-domain literatur
 
 ### 🌟 Open-Source Spotlight
 
-#### ⚡ [AutoDBA MCP](https://github.com/jeffreyehogg/autodba-mcp) — Zero-Connection SQL Optimization Server
+#### ⚡ [AutoDBA](https://github.com/jeffreyehogg/autodba) — Zero-Connection SQL Optimization & Incident Triage Platform
 
 <p align="left">
-  <a href="https://github.com/jeffreyehogg/autodba-mcp">
-    <img src="https://img.shields.io/github/stars/jeffreyehogg/autodba-mcp?style=social" alt="GitHub Stars">
+  <a href="https://github.com/jeffreyehogg/autodba">
+    <img src="https://img.shields.io/github/stars/jeffreyehogg/autodba?style=social" alt="GitHub Stars">
   </a>
   <img src="https://img.shields.io/badge/PyPI-uvx%20autodba--mcp-blue.svg?logo=pypi&logoColor=white" alt="PyPI">
   <img src="https://img.shields.io/badge/python-3.10+-blue.svg?logo=python&logoColor=white" alt="Python 3.10+">
@@ -104,14 +104,14 @@ A high-craft, native iOS audio listening application for public-domain literatur
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
 </p>
 
-An open-source **Model Context Protocol (MCP)** server published on PyPI (`uvx autodba-mcp`) that equips AI coding assistants (Claude Desktop, Cursor, Antigravity, Windsurf) with static SQL AST analysis, automated query rewriting, execution plan diagnostics, and zero-downtime index synthesis — **without requiring database credentials or exposing sensitive data.**
+An open-source **SQL optimization & database incident triage platform** combining a **Next.js web dashboard**, a **FastAPI async telemetry engine**, and a **Model Context Protocol (MCP)** server published on PyPI (`uvx autodba-mcp`) — **without requiring database credentials or exposing sensitive data.**
 
 * 🔒 **Zero DB Credentials Needed:** 100% offline static AST parsing via `sqlglot`.
 * ⚡ **Deterministic AST Rewriter:** Automatically refactors anti-patterns (e.g. non-SARGable column functions, Cartesian joins) into high-performance queries.
 * 🛡️ **Zero-Downtime Index Synthesis:** Generates non-blocking DDL (`WITH (ONLINE=ON)`, `CONCURRENTLY`) for SQL Server, PostgreSQL, and MySQL.
-* 📊 **Execution Plan Diagnostics:** Deep parsing of `.sqlplan` XML and `EXPLAIN JSON` to isolate bottleneck operators and sort spills.
+* 📊 **Execution Plan & Incident Triage:** Deep parsing of `.sqlplan` XML, `EXPLAIN JSON`, slow-query CSVs, and async `202 Accepted` telemetry ingestion with Slack/Discord alerts.
 
-👉 **[Star & Clone on GitHub](https://github.com/jeffreyehogg/autodba-mcp)** &nbsp;|&nbsp; 🌐 **[Try Web Demo](https://autodba.jeffhogg.com)**
+👉 **[Star & Clone on GitHub](https://github.com/jeffreyehogg/autodba)** &nbsp;|&nbsp; 🌐 **[Try Web Demo](https://autodba.jeffhogg.com)**
 
 ---
 

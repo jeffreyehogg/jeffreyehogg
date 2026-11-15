@@ -133,8 +133,6 @@ A high-performance Turborepo monorepo and personal engineering portfolio orchest
 | **Aura** | Native iOS audio player for 18,000+ public-domain audiobooks & podcasts with ambient lighting and tactile haptics | Swift 6, SwiftUI, SwiftData, AVFoundation, iOS 17+ | [App Store](https://apps.apple.com/app/aura-audiobooks-podcasts/id6823766817) • [Web](https://www.jeffhogg.com/aura) • [Code](https://github.com/jeffreyehogg/aura) |
 | **AlgoQuest** | Interactive 2D dungeon algorithm quest powered by a custom 138KB Rust WebAssembly engine across 6 languages | Rust (WASM), Next.js 16, React 19, Pyodide WASM, CodeMirror 6, Clerk | [Live Demo](https://algoquest.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/algoquest) |
 | **AutoDBA MCP** | Standalone PyPI MCP server (`uvx autodba-mcp`) for zero-connection SQL AST analysis and index synthesis | Python, MCP Protocol, sqlglot, T-SQL / Postgres / MySQL | [Repo](https://github.com/jeffreyehogg/autodba-mcp) • [Web Demo](https://autodba.jeffhogg.com) |
-| **Kingdom Connect** | Community engagement platform with volunteer board, mission funding, and encrypted prayer journal | Next.js 16, React 19, PostgreSQL, Drizzle ORM, Clerk, Tailwind CSS | [Live Demo](https://kingdom.jeffhogg.com) • [Code](https://github.com/jeffreyehogg/portfolio/tree/main/apps/kingdom-connect) |
-| **Texas Tint Plus** | Commercial and residential window film platform featuring an interactive quote estimator | Next.js, React, TypeScript, Tailwind CSS | [Live Demo](https://texastint.com) • [Code](https://github.com/jeffreyehogg/texas-tint) |
 
 ---
 
